@@ -1,0 +1,25 @@
+body {
+  background-color: $accent;
+}
+
+.topbar-header_box {
+  @include row-flex();
+  justify-content: space-between;
+}
+
+.topbar-header_item {
+  text-align: center;
+}
+
+.topbar-header_link {
+  font-size: rem(20);
+  padding-right: 15px;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+.article-box {
+  @include row-flex();
+}

@@ -1,0 +1,49 @@
+{
+  "name": "starthtml_gulp4_scss_pug_babel_eslint",
+  "version": "1.0.0",
+  "description": "zapBoiler - start html template",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "pug",
+    "scss",
+    "babel",
+    "eslint"
+  ],
+  "author": "MDziba",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-cheerio": "^0.6.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-csso": "^3.0.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-if": "^2.0.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-svg-sprite": "^1.4.0",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglifyjs": "^0.6.2",
+    "smart-grid": "^2.0.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0",
+    "svg4everybody": "^2.1.9"
+  }
+}
